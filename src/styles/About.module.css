@@ -1,0 +1,52 @@
+.About {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 2em 0 4em 0;
+}
+
+.parallax {
+  max-width: 3840px;
+  margin: auto;
+}
+
+.parallax img {
+  filter: blur(4px) !important;
+  z-index: -2 !important;
+}
+
+.container {
+  margin: 2em 1.5em 2em 1em;
+  padding: 1em;
+  border: solid 3px var(--color-2);
+  box-shadow: 5px -5px 0 var(--color-5);
+  text-shadow: 2px 2px 4px var(--color-1-1);
+  background-color: var(--color-1-1);
+  transition: 400ms all ease-in-out;
+}
+
+.container:hover {
+  box-shadow: 10px -10px 0 var(--color-5);
+  border: solid 3px var(--color-4);
+}
+
+.container > p {
+  font-size: 1em;
+  line-height: 1.4em;
+  word-spacing: 4px;
+}
+
+.container > p:not(.container > p:last-child) {
+  margin-bottom: 1em;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    font-size: 1.15em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    margin: 2em 0;
+  }
+}
