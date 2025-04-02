@@ -33,7 +33,7 @@ export const Header: React.FC = () => {
             className={styles.Link}
             activeClass={styles.active}
           >
-            Projets
+            Projects
           </Link>
           <Link
             to="about"
