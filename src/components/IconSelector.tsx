@@ -3,11 +3,10 @@ import {
   FaCss3Alt,
   FaReact,
   FaNodeJs,
-  FaSass,
-  FaDocker,
   FaAngular,
   FaGithub,
-  FaLink,
+  FaLinkedin,
+  FaLink
 } from "react-icons/fa";
 import {
   SiTypescript,
@@ -15,6 +14,11 @@ import {
   SiExpress,
   SiRedux,
   SiMui,
+  SiNextdotjs,
+  SiPrisma,
+  SiPostgresql,
+  SiMongodb,
+  SiLeetcode
 } from "react-icons/si";
 
 type Props = { skill: string };
@@ -25,6 +29,10 @@ export const IconSelector: React.FC<Props> = ({ skill }) => {
       return <FaHtml5 />;
     case "CSS":
       return <FaCss3Alt />;
+    case "MongoDB":
+      return <SiMongodb />;
+    case "Prisma":
+      return <SiPrisma />;
     case "React":
       return <FaReact />;
     case "Typescript":
@@ -35,18 +43,22 @@ export const IconSelector: React.FC<Props> = ({ skill }) => {
       return <FaNodeJs />;
     case "Express.js":
       return <SiExpress />;
-    case "Sass":
-      return <FaSass />;
-    case "Docker":
-      return <FaDocker />;
+    case "Next.js":
+      return <SiNextdotjs />;
+    case "PostgreSQL":
+      return <SiPostgresql/>;
     case "Redux":
       return <SiRedux />;
     case "Angular":
       return <FaAngular />;
-    case "Material UI":
+    case "Shadcn UI":
       return <SiMui />;
     case "Github":
       return <FaGithub />;
+    case "LinkedIn":
+      return <FaLinkedin />;
+    case "LeetCode":
+      return <SiLeetcode />;
     case "Link":
       return <FaLink />;
     default:

@@ -10,7 +10,7 @@ export const Footer: React.FC = () => {
         <a href={github} target="_blank" rel="noreferrer">
           {title}
         </a>{" "}
-        - Tous droits réservés.
+        - Harshita Sharma
       </p>
     </footer>
   );

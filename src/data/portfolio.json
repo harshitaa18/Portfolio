@@ -1,71 +1,61 @@
 {
-  "title": "portfolio",
-  "name": "John Doe",
-  "picture": "/50039110.webp",
-  "job": "Développeur Web Front-End",
-  "github": "https://github.com/boysers",
+  "title": "Portfolio",
+  "name": "Harshita Sharma",
+  "picture": "/new.jpg",
+  "job": "Full Stack Web Devloper",
+  "github": "https://github.com/harshitaa18",
+  "linkedin": "https://www.linkedin.com/in/harshita-sharma-473915255/",
+  "leetcode": "https://leetcode.com/u/harshitaa18/",
   "abouts": [
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam unde quae neque eius atque harum a facilis natus, eum blanditiis. Quae ex rem, esse vero natus perferendis vel odio eaque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam unde quae neque eius atque harum a facilis natus, eum blanditiis. Quae ex rem, esse vero natus perferendis vel odio eaque.",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam unde quae neque eius atque harum a facilis natus, eum blanditiis. Quae ex rem, esse vero natus perferendis vel odio eaque."
+    "Hi, I’m Harshita Sharma, a passionate MERN Stack Developer with a strong foundation in web development, UI/UX design, and scalable applications.", "I enjoy building intuitive and impactful digital experiences, focusing on both frontend aesthetics and backend efficiency.Beyond coding, I have a keen interest in AI, startups, and problem-solving. Whether it’s crafting seamless user experiences or optimizing backend performance, I love tackling challenges and bringing ideas to life."
   ],
   "competences": [
     "HTML",
     "CSS",
-    "Sass",
     "Javascript",
-    "Typescript",
+    "Next.js",
     "React",
-    "Angular",
+    "MongoDB",
     "Node.js",
     "Express.js",
-    "Docker",
-    "Material UI",
-    "Redux"
+    "Nodejs",
+    "Typescript",
+    "Shadcn UI",
+    "Prisma",
+    "Github",
+    "PostgreSQL"
   ],
   "projects": [
     {
-      "name": "Foodelivery",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam unde quae neque eius atque harum a facilis natus, eum blanditiis. Quae ex rem, esse vero natus perferendis vel odio eaque.",
-      "repository": "https://github.com/boysers/foodelivery",
-      "technologies": ["react", "typescript", "vite", "vitest", "mui"],
-      "image": "/food-list-page_2023-03_test.webp",
-      "link": "https://foodeliveries.netlify.app"
+      "name": "My-Wealth",
+      "description": "My Wealth is a finance app for tracking income, expenses, and spending patterns with AI insights, built using Next.js and Prisma.",
+      "repository": "https://github.com/harshitaa18/My-Welth",
+      "technologies": ["Next.js", "Javascript", "Prisma", "Tailwind CSS", "Shadcn UI", "Gemini ai"],
+      "image": "/wealth_pic.png",
+      "link": "https://my-welth.vercel.app/"
     },
     {
-      "name": "InitNote",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam unde quae neque eius atque harum a facilis natus, eum blanditiis. Quae ex rem, esse vero natus perferendis vel odio eaque.",
-      "repository": "https://github.com/boysers/initnote",
+      "name": "Foodio",
+      "description": "Foodio is a MERN-stack food ordering platform with seamless ordering, pre-order reservations, secure payments, and an admin portal for efficient management.",
+      "repository": "https://github.com/harshitaa18/foodio",
       "technologies": [
-        "angular",
-        "express.js",
-        "typescript",
-        "docker",
+        "React",
+        "Node.js",
+        "Javascript",
+        "CSS",
         "mongodb",
-        "nginx"
+        "Razorpay"
       ],
-      "image": "/notes-page_03-2023.webp",
+      "image": "/foodio_pic.png",
+      "link": "https://foodio-frontend-zlgk.onrender.com/"
+    },
+    {
+      "name": "HerVenture",
+      "description": "HerVenture is a platform that helps women entrepreneurs hire skilled workers, connect with wholesalers, and find business spaces—all in a secure and inclusive environment.",
+      "repository": "https://github.com/harshitaa18/HerVenture",
+      "technologies": ["React", "javascript", "css", "mongodb", "nodejs"],
+      "image": "/Herventure_pic.png",
       "link": null
-    },
-    {
-      "name": "Kasa",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam unde quae neque eius atque harum a facilis natus, eum blanditiis. Quae ex rem, esse vero natus perferendis vel odio eaque.",
-      "repository": "https://github.com/boysers/oc-kasa",
-      "technologies": ["react", "typescript", "create-react-app"],
-      "image": "/oc-kasa-react.netlify.app_2023-03.webp",
-      "link": "https://oc-kasa-react.netlify.app/"
-    },
-    {
-      "name": "Argent Bank",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam unde quae neque eius atque harum a facilis natus, eum blanditiis. Quae ex rem, esse vero natus perferendis vel odio eaque.",
-      "repository": "https://github.com/boysers/oc-ArgentBank-website",
-      "technologies": [
-        "react",
-        "redux toolkit",
-        "typescript",
-        "create-react-app"
-      ],
-      "image": "/oc-argentbank-static.netlify.app-dashboard-profile_2023-03.webp",
-      "link": "https://oc-argentbank-static.netlify.app"
     }
   ]
 }

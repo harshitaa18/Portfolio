@@ -8,7 +8,7 @@ export const About = () => {
   return (
     <Parallax bgImage={bgImage.src} strength={500} className={styles.parallax}>
       <div id="about" className={styles.About}>
-        <h2>A propos de moi</h2>
+        <h2>About Me</h2>
         <section className={styles.container}>
           {abouts.map((about, idx) => (
             <p key={idx}>{about}</p>

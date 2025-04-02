@@ -21,7 +21,7 @@ export const Header: React.FC = () => {
             className={styles.Link}
             activeClass={styles.active}
           >
-            Compétences
+            Skills
           </Link>
           <Link
             to="projects"
@@ -45,7 +45,7 @@ export const Header: React.FC = () => {
             className={styles.Link}
             activeClass={styles.active}
           >
-            A propos
+            About
           </Link>
         </nav>
       </div>

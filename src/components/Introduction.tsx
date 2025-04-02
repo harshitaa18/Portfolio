@@ -7,10 +7,13 @@ import Image from "next/image";
 const Typewriter = dynamic(() => import("typewriter-effect"), { ssr: false });
 
 export const Introduction: React.FC = () => {
-  const { name, job, github, picture } = usePortfolioContext();
+  const { name, job, github,linkedin,leetcode, picture } = usePortfolioContext();
+  console.log({ name, job, github, picture });
   return (
+    
     <div className={styles.introduction} id="introduction">
       <div className={styles.container}>
+      
         <Image
           src={require(`@/data/images${picture}`)}
           alt={`Photo de profil de ${name}`}
@@ -24,10 +27,10 @@ export const Introduction: React.FC = () => {
               onInit={(typewriter) => {
                 typewriter
                   .changeDelay(100)
-                  .typeString("Bonjour !")
+                  .typeString("Hello !")
                   .pauseFor(500)
                   .deleteAll()
-                  .typeString(`Je m'appelle`)
+                  .typeString(`I am `)
                   .pauseFor(200)
                   .deleteAll()
                   .typeString(name)
@@ -38,13 +41,14 @@ export const Introduction: React.FC = () => {
           <h2 id="jobTitle">{job}</h2>
         </div>
         <div className={styles.links}>
-          <a
-            href={github}
-            aria-label="github link"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href={github} aria-label="GitHub link" target="_blank" rel="noreferrer">
             <IconSelector skill="Github" />
+          </a>
+          <a href={leetcode} aria-label="LeetCode link" target="_blank" rel="noreferrer">
+            <IconSelector skill="LeetCode" />
+          </a>
+          <a href={linkedin} aria-label="LinkedIn link" target="_blank" rel="noreferrer">
+            <IconSelector skill="LinkedIn" />
           </a>
         </div>
       </div>

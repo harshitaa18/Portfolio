@@ -58,10 +58,10 @@
 }
 
 .image {
-  height: 100px;
-  width: auto;
+  height: 120px;
+  width: 140px;
   border-radius: 50%;
-  border: 2px solid var(--color-5);
+  border: 2px solid var(black);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 

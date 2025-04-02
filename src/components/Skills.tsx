@@ -10,7 +10,7 @@ export const Skills: React.FC = () => {
   return (
     <Parallax bgImage={bgImage.src} strength={500} className={styles.parallax}>
       <div id="skills" className={styles.Skills}>
-        <h2>Mes Compétences</h2>
+        <h2>Skills</h2>
         <div className={styles.container}>
           {competences.map((skill, idx) => {
             return (
