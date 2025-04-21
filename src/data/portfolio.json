@@ -7,7 +7,8 @@
   "linkedin": "https://www.linkedin.com/in/harshita-sharma-473915255/",
   "leetcode": "https://leetcode.com/u/harshitaa18/",
   "abouts": [
-    "Hi, I’m Harshita Sharma, a passionate MERN Stack Developer with a strong foundation in web development, UI/UX design, and scalable applications.", "I enjoy building intuitive and impactful digital experiences, focusing on both frontend aesthetics and backend efficiency.Beyond coding, I have a keen interest in AI, startups, and problem-solving. Whether it’s crafting seamless user experiences or optimizing backend performance, I love tackling challenges and bringing ideas to life."
+    "Hi, I’m Harshita Sharma, a passionate MERN Stack Developer with a strong foundation in web development, UI/UX design, and scalable applications.",
+    "I enjoy building intuitive and impactful digital experiences, focusing on both frontend aesthetics and backend efficiency.Beyond coding, I have a keen interest in AI, startups, and problem-solving. Whether it’s crafting seamless user experiences or optimizing backend performance, I love tackling challenges and bringing ideas to life."
   ],
   "competences": [
     "HTML",
@@ -30,7 +31,14 @@
       "name": "My-Wealth",
       "description": "My Wealth is a finance app for tracking income, expenses, and spending patterns with AI insights, built using Next.js and Prisma.",
       "repository": "https://github.com/harshitaa18/My-Welth",
-      "technologies": ["Next.js", "Javascript", "Prisma", "Tailwind CSS", "Shadcn UI", "Gemini ai"],
+      "technologies": [
+        "Next.js",
+        "Javascript",
+        "Prisma",
+        "Tailwind CSS",
+        "Shadcn UI",
+        "Gemini ai"
+      ],
       "image": "/wealth_pic.png",
       "link": "https://my-welth.vercel.app/"
     },
@@ -55,7 +63,7 @@
       "repository": "https://github.com/harshitaa18/HerVenture",
       "technologies": ["React", "javascript", "css", "mongodb", "nodejs"],
       "image": "/Herventure_pic.png",
-      "link": null
+      "link": "https://her-venture.vercel.app/"
     }
   ]
 }

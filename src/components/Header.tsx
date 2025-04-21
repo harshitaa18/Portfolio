@@ -1,11 +1,31 @@
 import styles from "@/styles/Header.module.css";
 import { usePortfolioContext } from "@/context/PortfolioContext";
 import { Link, animateScroll as scroll } from "react-scroll";
+import React from "react";
 
 export const Header: React.FC = () => {
   const { title } = usePortfolioContext();
+  const [scrolled, setScrolled] = React.useState(false);
+  
+  // Add scroll event listener to change header style on scroll
+  React.useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 20;
+      if (isScrolled !== scrolled) {
+        setScrolled(isScrolled);
+      }
+    };
+    
+    window.addEventListener('scroll', handleScroll);
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [scrolled]);
+  
+  
   return (
-    <header className={styles.Header}>
+    <header className={`${styles.Header} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.container}>
         <div className={styles.title} onClick={() => scroll.scrollToTop()}>
           {title}
